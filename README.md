@@ -32,28 +32,27 @@
 
 ### 1.1 Purpose
 
-This Software Requirements Specification (SRS) describes all specifications for the application "Common Playground". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+This Software Requirements Specification (SRS) describes all specifications for the application "DHBW-Experts". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
 
 ### 1.2 Scope
 
-The project is going to be realized as an Android App.
+The project is going to be realized as an Android and IOS App, but won't be released in their associated App stores due to the need of a developer Account.
 
-Actors of this App can be users or moderators.
+Actors of this App can be users or admins.
 
 Planned Subsystems are:
 
-- Notice Board:  
-  The notice board is the essential part of the user interface. Game sessions should be visualized as postings including relevant information about the session. Those should be partly standardized by a form with a free text option for specifics. The data must be stored accordingly.
-- Account System:  
-  Users can create accounts so sessions can be connected to a person as well as to join requests. User data must be stored alongside the posting data.
-- Friend List and User Rating:  
-  Once the account system is created there will be the option to mark users as favorites. Also users or game sessions should get a rating to counter abuse.
-- Connecting People:  
-  The host of a game session has to be notified when someone wants to join their game. Both must then be able to get in touch to organize the details, so messages between the host and the guest have to be enabled. This could be done via automated emails or a custom in-app system. For this an account system is needed.
-- Storing Data:  
-  User data for accounts and possibly profiles has to be stored. Also the game sessions have to be stored as datasets containing the form contents and possibly contact data. The data storage will form the foundation for the visualization, account system and the search feature.
-- Finding your Game:  
-  We need a tag system so everyone looking to join a game can search for the kind of games they are interested in. Possibly other aspects can be searchable, such as place or date. Tags must be stored and a search function developed.
+- Account system
+ A user can create an account and the account data will be encrypted and stored in an Azure SQL database.
+- Mail server
+The mail server will be used to verify that all emails belong to the domain @student.dhbw-karlsruhe.de.
+- Database and their corresponding API
+The database will store all of the userdata, skilltags and the login data for every user.
+- Skill confirmation system
+Users will be able to confirm that another user has a certain skill.
+- Search for skilltags
+Users will be able to find other users by searching for skilltags.
+
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
@@ -65,13 +64,14 @@ Planned Subsystems are:
 | tbd         | to be determined                    |
 | UCD         | overall Use Case Diagram            |
 | FAQ         | Frequently asked Questions          |
+| UI          | User Interface                      |
 
 ### 1.4 References
 
 | Title                                                           |    Date    | Publishing organization |
 | --------------------------------------------------------------- | :--------: | ----------------------- |
-| [Common Playground Blog](http://commonplayground.wordpress.com) | 18.10.2018 | Common Playground Team  |
-| [GitHub](https://github.com/nilskre/CommonPlayground)           | 18.10.2018 | Common Playground Team  |
+| [DHBW-Experts](https://dhbw-experts.github.io/) | 19.10.2021 | DHBW-Experts Team  |
+| [GitHub](https://github.com/DHBW-Experts)           | 19.10.2021 | DHBW-Experts Team  |
 
 ### 1.5 Overview
 
@@ -81,7 +81,11 @@ The following chapter provides an overview of this project with vision and Overa
 
 ### 2.1 Vision
 
-Inspired by carpool coordination services like ‘BlaBlaCar’ or ‘Mitfahrzentrale’ we want to build an application to coordinate game sessions. We plan to create a platform for people who are looking for other people to play games with. Covering online multiplayer games, tabletop, pen and paper or regular board games we want to provide a kind of bulletin board where people can state what they want to play, when and where they want to do it and how many people they are looking for. Others can then react to the postings and virtually join the play session to be connected by us so everyone can coordinate the actual play session together on a Common Playground.
+The very basic idea is to create an easy way for students to find experts concerning a specific subject. We want to create an app, which will enable our users to create a profile, where one can link any certain topic, they are an Expert in. This will be possible by adding hashtags (e.g., #C++ or #BWL, although you can add non-DHBW-related tags like #csgo or #Tax too) alongside their DHBW-related personal information to their student profile. These tags can be searched by anyone needing help, creating an expertise-database.
+
+Nowadays, almost every smartphone can scan NFC-Chips and we think it is possible to link more information to the NFC-Chip than just your cafeteria balance. This is why we want to encourage our users to voluntarily link their RFID student ID card to our app to create their own digital business card - Just scan someone’s ID with our app and get an overview of who you are dealing with. Find out what they are good at and enjoy an instant conversation starter.
+
+Our app should be available as an Android and iOS-app (Although it will be almost impossible to deploy without an Apple Developer account) using Ionic. Ionic allows you to develop an application that works flexible on iOS, android and pcs.
 
 ### 2.2 Use Case Diagram
 
@@ -95,31 +99,29 @@ Inspired by carpool coordination services like ‘BlaBlaCar’ or ‘Mitfahrzent
 The technology we use is:
 
 Backend:
--Gradle and Springboot
--H2 Database
+-Azure SQL (Cloud Database)
+-C# API
+-Mail Server
+-Typescript for App Logic
 
 Frontend:
--Android with Java and XML
+-Ionic App with HTML, Angular and Sass
 
 IDE:
--IntelliJ and Android Studio
+-Visual Studio Code
 
 Project Management:
 -YouTrack
 -GitHub
--Microsoft Teams
+-Discord
 
 Deployment:
--Travis CI
--Docker and Heroku
+-Docker
+-Github and Azure container registry
+-Github Actions
 
 Testing:
--Cucumber
--Espresso
--JUnit
--Codacy
--CodeMR
--RestAssured
+-Ionic Jasmine
 
 ## 3. Specific Requirements
 
@@ -128,103 +130,58 @@ Testing:
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
 Until December we plan to implement:
 
-- 3.1.1 Posting a session
-- 3.1.2 Getting an overview
+- 3.1.1 Scanning an ID
+- 3.1.2 adding skilltags to an Account
 - 3.1.3 Creating an account
 - 3.1.4 Logging in
 - 3.1.5 Logging out
+- 3.1.6 Email validation
 
 Until June, we want to implement:
 
-- 3.1.6 Joining a session
-- 3.1.7 Keeping track of your sessions
-- 3.1.8 Leaving a session
-- 3.1.9 Finding a session
-- 3.1.10 Getting in touch
+- 3.1.7 search for different skilltags
+- 3.1.8 confirmation of skilltags by other users
 
-#### 3.1.1 Posting a session
 
-This feature is the essential one of our project. The user gets the possibility to post a session. Therefore, they have to select a game and also set the time when they want to play.For offline games, they have to set a location, too. For online games the location can be a server for example or simply be tagged as 'online'.
+#### 3.1.1 Scanning an ID
 
-[Posting a session](./use_cases/UC1_Post_Session.md)
+Every account will be linked to a student ID. To add an student ID to your Account, simply scan the ID with an NFC capable smartphone. 
 
-#### 3.1.2 Getting an overview
+#### 3.1.2 adding skilltags to an Account
 
-This feature provides a basic overview over all current sessions. All posted sessions are added here. From this overview you can select a session and from there join this session.
-
-[Session overview](./use_cases/UC3_Session_Overview.md)
+Every user can show their skills by adding their personal skilltags to their profile. Skilltags can also be removed.
 
 #### 3.1.3 Creating an account
 
-To identify all useres we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview over all sessions (Keeping track of your sessions).
-
-[Create an account](./use_cases/UC4_Create_Account.md)
+To identify all users we need an account system. This account system enables us to build important functions such as scanning the student ID from someone else to get information about their skilltags.
 
 #### 3.1.4 Logging in
 
-The app will provide the possibility to register and log in. This will also make the usability easier when a user wants to manage his sessions, post or join a session because they don't have to enter their mail address every time.
-
-[Login](./use_cases/UC5_Login.md)
+The app will provide the possibility to register and log in.
 
 #### 3.1.5 Logging out
 
-In case you share your phone, have multiple accounts or just want to be cautius about your privacy you should be able to manually log out.
+In case you share your phone or just want to be cautius about your privacy you should be able to manually log out.
 
-[Logout](./use_cases/UC6_Logout.md)
+#### 3.1.6 Email validation
 
-#### 3.1.6 Joining a session
+Every user needs to confirm that they are a student at the DHBW by verifying their email adress.
 
-There is also the possibility to join an existing game session. Therefore, the user can select a specific session.
+#### 3.1.7 search for different skilltags
 
-[Join a session](./use_cases/UC2_Join_Session.md)
+A user can search for different skill tags and find other users that have this skill.
 
-#### 3.1.7 Keeping track of your sessions
+#### 3.1.8 confirmation of skilltags by other users
 
-The app provides the user with a seperate page view where they get an overview of all sessions they posted or joined. When the user clicks on a session, he can also see who joined his posted sessions.
-
-[Keeping track of your sessions](./use_cases/UC7_Keeping_Track.md)
-
-#### 3.1.8 Leaving a session
-
-The user gets also the possibility to delete a session he posted or to leave a session he joined.
-
-[Leaving a session](./use_cases/UC8_Leave_Session.md)
-
-#### 3.1.9 Finding a session
-
-Based on the overview over all sessions this features enables the user to find sessions by specific parameters. Therefore, the user can find a session by tags or other parameters like date. Later on, finding a session will be provided by geolocalization that the users can search for a session in a specific area.
-
-[Finding a session](./use_cases/UC9_Find_Session.md)
-
-#### 3.1.10 Getting in touch
-
-There must be the possibility that two people who want to play together can communicate with each other. The player who joins the session gets the possibility to contact the owner and vice versa. Later on, when we will have implemented profiles, then they will form another way to communicate with each other.
-
-[Getting in Touch](./use_cases/UC10_Getting_In_Touch.md)
-
-#### 3.1.11 Presenting yourself and checking out others
-
-With the possibility to log in there comes another functionality, the profile. Every user will have their own profile where they can write some informations about themselves. Because of the privacy policy in Europe, the user has the possibility to only write the information they want other people to see. Using the profile, users can also check out other players and learn e.g. their favorite games.
-
-#### 3.1.12 Reporting users and managing friends
-
-After a session, the app provides the users with the possibility to report the other participants. This is helpful because we want a community with fair players. Additionally, when they found an interesting person they can also add them to their friend list which also has a seperate page view.
-
-#### 3.1.13 Banning users and deleting posts
-
-There are also some functionalities for the admins. They will get the possibility to ban users and to delete any posts.
+Users can confirm that another user has a certain skill as specified on their profile.
 
 ### 3.2 Usability
 
-We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
+We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app.
 
-#### 3.2.1 No training time needed
+#### 3.2.1 Training time
 
-Our goal is that a user installs the android application, opens it and is able to use all features without any explanation or help.
-
-#### 3.2.2 Familiar Feeling
-
-We want to implement an app with familiar designs and functions. This way the user is able to interact in familiar ways with the app without having to get to know new interfaces.
+It might take the user a short amount of time to understand the purpose of the app. Besides that, our goal is that a user installs the android application, opens it and is able to use all features without any help.
 
 ### 3.3 Reliability
 
@@ -321,10 +278,10 @@ The development will follow the common clean code standards and naming conventio
 For any further information you can contact the Common Playground Team or check our [Common Playground Blog](http://commonplayground.wordpress.com).
 The Team Members are:
 
-- Celina Adam
-- Inga Batton
-- Nils Krehl
-- Denis Reibel
+- Noah Kilders
+- Lukas Holler
+- Tim Czerkas
+- Ralph Böhm
 
 <!-- Picture-Link definitions: -->
 
