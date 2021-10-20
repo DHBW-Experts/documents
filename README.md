@@ -1,4 +1,4 @@
-# Common Playground - Software Requirements Specification
+# DHBW-Experts - Software Requirements Specification
 
 ## Table of contents
 
@@ -181,7 +181,7 @@ We plan on designing the user interface as intuitive and self-explanatory as pos
 
 #### 3.2.1 Training time
 
-It might take the user a short amount of time to understand the purpose of the app. Besides that, our goal is that a user installs the android application, opens it and is able to use all features without any help.
+It might take the user a short amount of time to understand the purpose of the app. Besides that, our goal is that a user installs the application, opens it and is able to use all features without any help.
 
 ### 3.3 Reliability
 
@@ -230,7 +230,7 @@ The supported Platforms will be:
 
 ### 3.7 On-line User Documentation and Help System Requirements
 
-The usage of the app should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button in the App which includes a FAQ and a formular to contact the developement team.
+The usage of the app should be as intuitive as possible so it won't need any further documentation. The Blog could also be used of our team could also be used in case any of the functions are not clear.
 
 ### 3.8 Purchased Components
 
@@ -242,22 +242,21 @@ We don't have any purchased components yet. If there will be purchased component
 
 The User interfaces that will be implented are:
 
-- Dashboard - lists all session and makes it possible to filter sessions
-- Session Page - shows detailed information about the session and makes it possible to connect session attendants for example via messaging system
 - Login - this page is used to log in
 - Register - provides a registration form
-- Overwiew of personal sessions - shows all the sessions a user participates in
-- Friend List - friends can be added
-- Profile - makes it possible to post information about yourself, might provide messaging feature, also shows additional information about users (for example: Language, country, favorite games, etc.)
+- Friend List - friends can be added (TODO will we implementing a friend feature??)
+- Edit Profile - own personal information can be edited and skilltags can be added
+- View Profile - view the profile of a specific user 
+- Search - search for a user by specific skilltags
 - Settings - shows the settings
 
 #### 3.9.2 Hardware Interfaces
 
-(n/a)
+NFC Sanner
 
 #### 3.9.3 Software Interfaces
 
-The app will be runnable on Android 4.4 and higher. iOS won't be featured at the moment.
+The app will be runnable on modern version of Android and IOS. 
 
 #### 3.9.4 Communication Interfaces
 
@@ -267,7 +266,7 @@ The server and hardware will communicate using the http protocol.
 
 ### 3.11 Legal, Copyright, and Other Notices
 
-The logo is licensed to the Common Playground Team and is only allowed to use for the application. We do not take responsibilty for any incorrect data or errors in the application.
+The logo is licensed to the DHBW-Experts Team and is only allowed to use for the application. We do not take responsibilty for any incorrect data or errors in the application.
 
 ### 3.12 Applicable Standards
 
@@ -275,7 +274,7 @@ The development will follow the common clean code standards and naming conventio
 
 ## 4. Supporting Information
 
-For any further information you can contact the Common Playground Team or check our [Common Playground Blog](http://commonplayground.wordpress.com).
+For any further information you can contact the DHBW-Experts Team or check our [DHBW-Experts Blog](https://dhbw-experts.github.io/).
 The Team Members are:
 
 - Noah Kilders
