@@ -187,54 +187,49 @@ It might take the user a short amount of time to understand the purpose of the a
 
 #### 3.3.1 Availability
 
-The server shall be available 95% of the time. This also means we have to figure out the "rush hours" of our app because the downtime of the server is only tolerable when as few as possible players want to use the app.
+The server will be online during the day so that there is always the chance for students to connect each other on the campus in the forenoon or even after the lessons.
 
 #### 3.3.2 Defect Rate
 
-Our goal is that we have no loss of any data. This is important so that the game sessions can carry on, even after a downtime of the server.
+Our goal is to store all the data properly, so that even when the server is down or the app crashes, users won't need to register them again. We also want to reduce the amount of errors, once the app is online.
 
 ### 3.4 Perfomance
 
 #### 3.4.1 Capacity
 
-The system should be able to manage thousands of requests. Also it should be possible to register as many users as necessary.
+The developed System should be able to manage all students of the DHBW, for the experimental purpose it will theoretically be at least possible for all of the students at the DHBW Karlsruhe to register to our app.
 
 #### 3.4.2 Storage
 
-Smartphones don't provide much storage. Therefore we are aiming to keep the needed storage as small as possible.
+Since the app doesn't have a lot of complex functionalities, there will be minor storage needed on our clients' smartphones.
 
 #### 3.4.3 App perfomance / Response time
 
-To provide the best App perfomance we aim to keep the response time as low as possible. This will make the user experience much better.
+For making the user experience much better, we plan to minimise response times and improve the perfomance constantly, if possible.
 
 ### 3.5 Supportability
 
 #### 3.5.1 Coding Standards
 
-We are going to write the code by using all of the most common clean code standards. For example we will name our variables and methods by their functionalities. This will keep the code easy to read by everyone and make further developement much easier.
+We are going to write the code by using all of the most common clean code standards. That means we will name our methodes and variables after their funcionalities and in english, so everyone in our group understands the code of others easily.
 
 #### 3.5.2 Testing Strategy
 
-The application will have a high test coverage and all important functionalities and edge cases should be tested. Further mistakes in the implementation will be discovered instantly and it will be easy to locate the error.
+In the first phase of development, our application won't have a high test coverage, this will follow in the future (June 2022).
 
 ### 3.6 Design Constraints
 
-We are trying to provide a modern and easy to handle design for the UI aswell as for the architecture of our application. To achieve that the functionalities will be kept as modular as possible.
+We are trying to provide a modern and easy to handle design for the UI aswell as for the architecture of our application. Therefore we want the app to be very self-explaining.
 
-Because we are progamming an Android App we chose Java as our programming language. Also we are using the common MVC-architecture to keep the front end and back end seperated. For a clean front end structure we use MVVM.
-To make the communication between the two parts easy, we will implement a RESTful-API between them which will provide the data in JSON-Format.
-The supported Platforms will be:
+To implement the UI we will use the UI Components delivered by IONIC.
 
-- Android 4.4 and higher
-- Java 8 and higher
+### 3.7 Online User Documentation and Help System Requirements
 
-### 3.7 On-line User Documentation and Help System Requirements
-
-The usage of the app should be as intuitive as possible so it won't need any further documentation. The Blog could also be used of our team could also be used in case any of the functions are not clear.
+There should be no need for a help system, since we are trying to construct an application that is very easy to understand. Anyway, the official Blog from our team could be used in case any of the functionalities are not clear.
 
 ### 3.8 Purchased Components
 
-We don't have any purchased components yet. If there will be purchased components in the future we will list them here.
+We don't have any purchased components yet. If so, then we will list them here in the future.
 
 ### 3.9 Interfaces
 
@@ -270,7 +265,7 @@ The logo is licensed to the DHBW-Experts Team and is only allowed to use for the
 
 ### 3.12 Applicable Standards
 
-The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.
+The development will follow the common clean code standards and naming conventions. We will also create a definition of them, which will be added here as soon as possible.
 
 ## 4. Supporting Information
 
