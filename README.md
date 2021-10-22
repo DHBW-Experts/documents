@@ -99,29 +99,29 @@ Our app should be available as an Android and iOS-app (Although it will be almos
 The technology we use is:
 
 Backend:
--Azure SQL (Cloud Database)
--C# API
--Mail Server
--Typescript for App Logic
+- Azure SQL (Cloud Database)
+- C# API
+- Mail Server
+- Typescript for App Logic
 
 Frontend:
--Ionic App with HTML, Angular and Sass
+- Ionic App with HTML, Angular and Sass
 
 IDE:
--Visual Studio Code
+- Visual Studio Code
 
 Project Management:
--YouTrack
--GitHub
--Discord
+- YouTrack
+- GitHub
+- Discord
 
 Deployment:
--Docker
--Github and Azure container registry
--Github Actions
+- Docker
+- Github and Azure container registry
+- Github Actions
 
 Testing:
--Ionic Jasmine
+- Ionic Jasmine
 
 ## 3. Specific Requirements
 
@@ -141,6 +141,7 @@ Until June, we want to implement:
 
 - 3.1.7 search for different skilltags
 - 3.1.8 confirmation of skilltags by other users
+- 3.1.9 adding a profile to a contact list
 
 
 #### 3.1.1 Scanning an ID
@@ -174,6 +175,10 @@ A user can search for different skill tags and find other users that have this s
 #### 3.1.8 confirmation of skilltags by other users
 
 Users can confirm that another user has a certain skill as specified on their profile.
+
+#### 3.1.9 adding a profile to a contact list
+
+Users can add profiles of other users to a contact list. That way recent contacts can be saved.
 
 ### 3.2 Usability
 
