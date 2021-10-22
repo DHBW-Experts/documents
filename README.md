@@ -239,7 +239,7 @@ The User interfaces that will be implented are:
 
 - Login - this page is used to log in
 - Register - provides a registration form
-- Friend List - friends can be added (TODO will we implementing a friend feature??)
+- Contact List - save contacts to quickly find them again
 - Edit Profile - own personal information can be edited and skilltags can be added
 - View Profile - view the profile of a specific user 
 - Search - search for a user by specific skilltags
