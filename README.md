@@ -43,16 +43,15 @@ Actors of this App can be users or admins.
 Planned Subsystems are:
 
 - Account system
- A user can create an account and the account data will be encrypted and stored in an Azure SQL database.
+  A user can create an account and the account data will be encrypted and stored in an Azure SQL database.
 - Mail server
-The mail server will be used to verify that all emails belong to the domain @student.dhbw-karlsruhe.de.
+  The mail server will be used to verify that all emails belong to the domain @student.dhbw-karlsruhe.de.
 - Database and their corresponding API
-The database will store all of the userdata, skilltags and the login data for every user.
+  The database will store all of the userdata, skilltags and the login data for every user.
 - Skill confirmation system
-Users will be able to confirm that another user has a certain skill.
+  Users will be able to confirm that another user has a certain skill.
 - Search for skilltags
-Users will be able to find other users by searching for skilltags.
-
+  Users will be able to find other users by searching for skilltags.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 
@@ -68,10 +67,10 @@ Users will be able to find other users by searching for skilltags.
 
 ### 1.4 References
 
-| Title                                                           |    Date    | Publishing organization |
-| --------------------------------------------------------------- | :--------: | ----------------------- |
-| [DHBW-Experts](https://dhbw-experts.github.io/) | 19.10.2021 | DHBW-Experts Team  |
-| [GitHub](https://github.com/DHBW-Experts)           | 19.10.2021 | DHBW-Experts Team  |
+| Title                                           |    Date    | Publishing organization |
+| ----------------------------------------------- | :--------: | ----------------------- |
+| [DHBW-Experts](https://dhbw-experts.github.io/) | 19.10.2021 | DHBW-Experts Team       |
+| [GitHub](https://github.com/DHBW-Experts)       | 19.10.2021 | DHBW-Experts Team       |
 
 ### 1.5 Overview
 
@@ -89,38 +88,41 @@ Our app should be available as an Android and iOS-app (Although it will be almos
 
 ### 2.2 Use Case Diagram
 
-![OUCD](./UseCaseDiagramCP.png)
-
-- Green: Planned till end of december
-- Yellow: Planned till end of june
+![OUCD](./UseCase-Diagram.jpg)
 
 ### 2.3 Technology Stack
 
 The technology we use is:
 
 Backend:
+
 - Azure SQL (Cloud Database)
 - C# API
 - Mail Server
 - Typescript for App Logic
 
 Frontend:
+
 - Ionic App with HTML, Angular and Sass
 
 IDE:
+
 - Visual Studio Code
 
 Project Management:
+
 - YouTrack
 - GitHub
 - Discord
 
 Deployment:
+
 - Docker
 - Github and Azure container registry
 - Github Actions
 
 Testing:
+
 - Ionic Jasmine
 
 ## 3. Specific Requirements
@@ -130,23 +132,24 @@ Testing:
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
 Until December we plan to implement:
 
-- 3.1.1 Scanning an ID
-- 3.1.2 adding skilltags to an Account
-- 3.1.3 Creating an account
-- 3.1.4 Logging in
-- 3.1.5 Logging out
-- 3.1.6 Email validation
+- 3.1.1 Developing an executable App
+- 3.1.2 Creating an account
+- 3.1.3 Logging in
+- 3.1.4 Logging out
+- 3.1.5 being able to create a user profile
+- 3.1.6 adding skilltags to an Account
 
 Until June, we want to implement:
 
+- 3.1.7 authenticate via a DHBW-email-adress
+- 3.1.6 being able to link and scan one's student-id
 - 3.1.7 search for different skilltags
-- 3.1.8 confirmation of skilltags by other users
+- 3.1.8 verify skilltags of other users
 - 3.1.9 adding a profile to a contact list
-
 
 #### 3.1.1 Scanning an ID
 
-Every account will be linked to a student ID. To add an student ID to your Account, simply scan the ID with an NFC capable smartphone. 
+Every account will be linked to a student ID. To add an student ID to your Account, simply scan the ID with an NFC capable smartphone.
 
 #### 3.1.2 adding skilltags to an Account
 
@@ -246,7 +249,7 @@ The User interfaces that will be implented are:
 - Register - provides a registration form
 - Contact List - save contacts to quickly find them again
 - Edit Profile - own personal information can be edited and skilltags can be added
-- View Profile - view the profile of a specific user 
+- View Profile - view the profile of a specific user
 - Search - search for a user by specific skilltags
 - Settings - shows the settings
 
@@ -256,7 +259,7 @@ NFC Sanner
 
 #### 3.9.3 Software Interfaces
 
-The app will be runnable on modern version of Android and IOS. 
+The app will be runnable on modern version of Android and IOS.
 
 #### 3.9.4 Communication Interfaces
 
@@ -284,4 +287,4 @@ The Team Members are:
 
 <!-- Picture-Link definitions: -->
 
-[oucd]: https://github.com/IB-KA/CommonPlayground/blob/master/UseCaseDiagramCP.png "Overall Use Case Diagram"
+[oucd]: https://github.com/IB-KA/CommonPlayground/blob/master/UseCase-Diagram.jpg "Overall Use Case Diagram"
