@@ -1,26 +1,23 @@
-# 1 Use-Case Name
-
-Create operation
+# 1 Fill out user-profile
 
 ## 1.1 Brief Description
 
-Every normal user can create new operations, making him the organizer of the newly created operation. An organizer must provide a good deal of information about the upcoming operation, like
+Every normal user can fill out their profile while the registration progress and edit their profile later on, making him the admin of his personal information and shared skilltags. For a successfull operation, the user must state his data (changes), such as
 
-- required ressources (must have, optional)
-- the public and the private description of the operation
-- the place/location
-- the date and time the operation takes place
-
-The information can be split into a public and a private part. The private part can only be seen by accepted team members.
+- personal information
+- skilltags
+- login-data
 
 # 2 Flow of Events
 
 ## 2.1 Basic Flow
 
-- User clicks on "create operation" button
-- User fills in the the form
-- User clicks on "create" to create the operation, he will be sent to the details view of the operation. A success message will be shown.
-- User clicks on "cancel" to close the form without saving the operation.
+- User clicks on the "Profil einsehen" button.
+- User clicks on the "Profil bearbeiten" button.
+- User edits any field.
+- User clicks on "Speichern" to update his profile, he will be sent to his profile overview again and a message "Dein Profil wurde aktualisiert!" will appear.
+- User clicks on "Abbrechen" to close the form without saving the operation.
+- User clicks on "Zurück" to close the profile overview.
 
 ### 2.1.1 Activity Diagram
 
@@ -36,47 +33,47 @@ The information can be split into a public and a private part. The private part 
 Feature: new operation
 
   As a signed in user
-  i want to create a new operation
-  and provide additional information regarding my intentions
-  in order to find willing helpers.
+  i want to fill out my user-profile
+  and provide additional information regarding my profession,
+  my hobbys, my expertise and what i'm studying
+  in order to enable other users to find me if they need help with
+  something i'm good at.
 
   Background:
-    And I am on the homepage
+    Given I am on the homepage or the registration window.
 
-  Scenario: open new operation dialog
-    Given I am signed in with username "USER" and password "PASSWORD"
-    And I am on the "main" page
-    When I press the "new operation" button
-    Then I am on the "new operation" page
+  Scenario: fill out user-profile on the registration window
+    Given I started the app for the first time and clicked on "registrieren"
+    Then I am on the "registrieren" page
+    When I enter "Max" in the field "Vorname"
+    And I enter "Mustermann" in the field "Nachname"
+    And I select "Karlsruhe" in the dropdown menu "DHBW-Standort"
+    Then the field "DHBW-Email Adresse" gets autocompleted to "mustermann.max@student.dhbw-karlsruhe.de"
+    And only the name, not the domain of the email can be changed.
+    When I enter "Informatik" in the field "Studiengang"
+    And I enter "TINF20B2" in the field "Kurs"
+    And I enter "Karlsruhe" in the field "City"
+    And I enter "Hi it's me" in the field "Bio"
+    And I press the "weiter" button
+    Then I am on the "Bitte bestätige dein Konto" page
 
-  Scenario: enter valid data and save the operation
-    Given I am signed in with username "USER" and password "PASSWORD"
-    And I am on the "new operation" page
-    When I enter "operation XY" in the field "title"
-    And I enter "Karlsruhe" in the field "location"
-    And I enter "01.01.2018" in the field "date"
-    And I enter "public description" in the field "public_descripion"
-    And I enter "private description" in the field "private_description"
-    And I press the "save" button
-    Then I am on the "details" page
-    And I receive a "success" message
-
-  Scenario: enter invalid data and save the operation
-    Given I am signed in with username "USER" and password "PASSWORD"
-    And I am on the "new operation" page
-    When I enter "operation XY" in the field "title"
-    And I enter "Karlsruhe" in the field "location"
-    And I enter "no date" in the field "date"
-    And I enter "" in the field "public_descripion"
-    And I enter "" in the field "private_description"
-    And I press the "save" button
-    Then I am on the "new operation" page
-    And I receive a "error" message
+  Scenario: edit user profile on your profile page
+    Given I am signed in and verified with my DHBW email adress "mustermann.max@student.dhbw-karlsruhe.de" and password "PASSWORD"
+    And I am on the "Profil" page
+    Then the fields "DHBW-Email Adresse", "DHBW-Standort", "Vorname" and "Nachname" can't be edited
+    When I enter "Informationstechnik" in the field "Studiengang"
+    And I enter "TINF20B3" in the field "Kurs"
+    And I enter "Ettlingen" in the field "City"
+    And I enter "Hi it's Max" in the field "Bio"
+    And I press the "speichern" button
+    Then I receive a message "Dein Profil wurde aktualisiert!"
 ```
 
 ## 2.2 Alternative Flows
 
-(n/a)
+- User clicks on the "Profil" page.
+- User clicks on the "Profil bearbeiten" button.
+- User clicks on the "Profil löschen" button and confirms. He will be sent to the login-page of the app and his profile will be no longer available in the system.
 
 # 3 Special Requirements
 
