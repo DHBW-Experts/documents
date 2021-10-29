@@ -30,7 +30,7 @@ Every normal user can fill out their profile while the registration progress and
 ### 2.1.3 Narrative
 
 ```gherkin
-Feature: new operation
+Feature: fill out the user profile
 
   As a signed in user
   i want to fill out my user-profile

@@ -1,4 +1,6 @@
-# 1 Fill out user-profile
+# 1 Verify skilltags
+
+TO DO
 
 ## 1.1 Brief Description
 

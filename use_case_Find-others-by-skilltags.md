@@ -1,23 +1,16 @@
-# 1 Fill out user-profile
+# 1 Find others by skilltags
 
 ## 1.1 Brief Description
 
-Every normal user can fill out their profile while the registration progress and edit their profile later on, making him the admin of his personal information and shared skilltags. For a successfull operation, the user must state his data (changes), such as
-
-- personal information
-- skilltags
-- login-data
+Every user is able to search for skilltags. Due to the fact skilltags are bound to other users, you can find other users by searching for their skills.
 
 # 2 Flow of Events
 
 ## 2.1 Basic Flow
 
-- User clicks on the "Profil einsehen" button.
-- User clicks on the "Profil bearbeiten" button.
-- User edits any field.
-- User clicks on "Speichern" to update his profile, he will be sent to his profile overview again and a message "Dein Profil wurde aktualisiert!" will appear.
-- User clicks on "Abbrechen" to close the form without saving the operation.
-- User clicks on "Zurück" to close the profile overview.
+- User clicks on the search bar and his smartphone keyboard appears. 
+- User enters a skill to search for.
+- The searching results are shown unsorted below the search bar.
 
 ### 2.1.1 Activity Diagram
 
@@ -30,7 +23,9 @@ Every normal user can fill out their profile while the registration progress and
 ### 2.1.3 Narrative
 
 ```gherkin
-Feature: new operation
+Feature: search for skilltags
+
+TO DO
 
   As a signed in user
   i want to fill out my user-profile
