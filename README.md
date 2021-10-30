@@ -185,7 +185,7 @@ A user can search for different skill tags and find other users that have this s
 
 #### 3.1.8 confirmation of skilltags by other users
 
-[Use case: verifiy skilltag](use_case_Verify-skilltags.md)
+[Use case: verify skilltag](use_case_Verify-skilltags.md)
 
 Users can confirm that another user has a certain skill as specified on their profile.
 
