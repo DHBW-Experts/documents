@@ -27,7 +27,7 @@ Every normal user can fill out their profile while the registration progress and
 
 ### 2.1.2 Mock-up
 
-![Create Operation Form Wireframe](../Pictures/Wireframes/CreateOperation.png)
+![Create Operation Form Wireframe](verifySkill.png)
 
 ### 2.1.3 Narrative
 

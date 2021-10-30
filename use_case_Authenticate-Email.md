@@ -20,12 +20,12 @@ Every user has to be a student from the DHBW in Germany, therefore they need to 
 
 ### 2.1.2 Mock-up
 
-![Create Operation Form Wireframe](../Pictures/Wireframes/CreateOperation.png)
+![Create Operation Form Wireframe](verifyEmail.png)
 
 ### 2.1.3 Narrative
 
 ```gherkin
-Feature: E-mail authentification 
+Feature: E-mail authentification
 
   As a new user
   I want to register to the app
@@ -38,16 +38,16 @@ Feature: E-mail authentification
     Given I filled out my user profile
     When I click on "Registrierung abschließen"
     Then I am asked to enter a confirmation code that was sent to my e-mail address
-    When I enter EXAMPLE_CODE in the textfield "Bestätigungscode" 
+    When I enter EXAMPLE_CODE in the textfield "Bestätigungscode"
     And I click on "Code überprüfen"
     And the codes are similar
     Then the homepage of the app is shown
 
-  Scenario: failing to verify my e-mail address 
+  Scenario: failing to verify my e-mail address
     Given I filled out my user profile
     When I click on "Registrierung abschließen"
     Then I am asked to enter a confirmation code that was sent to my e-mail address
-    When I enter EXAMPLE_CODE in the textfield "Bestätigungscode" 
+    When I enter EXAMPLE_CODE in the textfield "Bestätigungscode"
     And I click on "Code überprüfen"
     And the codes are not similar
     Then a message is shown "Falscher Bestätigungscode" with buttons "Erneut senden" and "Zurück zur Registrierung"

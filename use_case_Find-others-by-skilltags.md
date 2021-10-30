@@ -8,7 +8,7 @@ Every user is able to search for skilltags. Due to the fact skilltags are bound 
 
 ## 2.1 Basic Flow
 
-- User clicks on the search bar and his smartphone keyboard appears. 
+- User clicks on the search bar and his smartphone keyboard appears.
 - User enters a skill to search for.
 - The searching results are shown unsorted below the search bar.
 
@@ -18,7 +18,7 @@ Every user is able to search for skilltags. Due to the fact skilltags are bound 
 
 ### 2.1.2 Mock-up
 
-![Create Operation Form Wireframe](../Pictures/Wireframes/CreateOperation.png)
+![Create Operation Form Wireframe](searchBySkilltag.png)
 
 ### 2.1.3 Narrative
 
