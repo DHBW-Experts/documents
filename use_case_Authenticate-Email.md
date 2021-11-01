@@ -16,7 +16,7 @@ Every user has to be a student from the DHBW in Germany, therefore they need to 
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](../Diagrams/UCs/CreateOperationActivityDiagramm.jpg)
+![Organization Application Activity Diagram](verifyEmail.svg)
 
 ### 2.1.2 Mock-up
 
