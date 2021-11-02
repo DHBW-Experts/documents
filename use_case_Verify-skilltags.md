@@ -1,25 +1,19 @@
 # 1 Verify skilltags
 
-TO DO
-
 ## 1.1 Brief Description
 
-Every normal user can fill out their profile while the registration progress and edit their profile later on, making him the admin of his personal information and shared skilltags. For a successfull operation, the user must state his data (changes), such as
-
-- personal information
-- skilltags
-- login-data
+Every user can get his skills verified by other users. Furthermore, every user is also able to verify the skills of others.
+This works just by clicking a check box and writing a short comment.
 
 # 2 Flow of Events
 
 ## 2.1 Basic Flow
 
-- User clicks on the "Profil einsehen" button.
-- User clicks on the "Profil bearbeiten" button.
-- User edits any field.
-- User clicks on "Speichern" to update his profile, he will be sent to his profile overview again and a message "Dein Profil wurde aktualisiert!" will appear.
-- User clicks on "Abbrechen" to close the form without saving the operation.
-- User clicks on "Zurück" to close the profile overview.
+- User clicks on the profile button of another user.
+- User gets an overview of the persons profile with all his skilltags.
+- User clicks on the hook next to one certain skilltag.
+- User enters a comment and clicks on "Verifizieren" button.
+- User is again on the overview page of the persons profile, the one certain skilltag cannot be verified again.
 
 ### 2.1.1 Activity Diagram
 
@@ -32,50 +26,28 @@ Every normal user can fill out their profile while the registration progress and
 ### 2.1.3 Narrative
 
 ```gherkin
-Feature: new operation
+Feature: verify skilltags
 
   As a signed in user
-  i want to fill out my user-profile
-  and provide additional information regarding my profession,
-  my hobbys, my expertise and what i'm studying
-  in order to enable other users to find me if they need help with
-  something i'm good at.
+  I want to verify the skills of others
+  after I received help due to one of their skills
 
   Background:
-    Given I am on the homepage or the registration window.
+    Given I am signed in 
 
-  Scenario: fill out user-profile on the registration window
-    Given I started the app for the first time and clicked on "registrieren"
-    Then I am on the "registrieren" page
-    When I enter "Max" in the field "Vorname"
-    And I enter "Mustermann" in the field "Nachname"
-    And I select "Karlsruhe" in the dropdown menu "DHBW-Standort"
-    Then the field "DHBW-Email Adresse" gets autocompleted to "mustermann.max@student.dhbw-karlsruhe.de"
-    And only the name, not the domain of the email can be changed.
-    When I enter "Informatik" in the field "Studiengang"
-    And I enter "TINF20B2" in the field "Kurs"
-    And I enter "Karlsruhe" in the field "City"
-    And I enter "Hi it's me" in the field "Bio"
-    And I press the "weiter" button
-    Then I am on the "Bitte bestätige dein Konto" page
-
-  Scenario: edit user profile on your profile page
-    Given I am signed in and verified with my DHBW email adress "mustermann.max@student.dhbw-karlsruhe.de" and password "PASSWORD"
-    And I am on the "Profil" page
-    Then the fields "DHBW-Email Adresse", "DHBW-Standort", "Vorname" and "Nachname" can't be edited
-    When I enter "Informationstechnik" in the field "Studiengang"
-    And I enter "TINF20B3" in the field "Kurs"
-    And I enter "Ettlingen" in the field "City"
-    And I enter "Hi it's Max" in the field "Bio"
-    And I press the "speichern" button
-    Then I receive a message "Dein Profil wurde aktualisiert!"
+  Scenario: verify skill EXAMPLE_SKILL
+    Given I am on the profile page of another user
+    When I click on the hook button next to the tag EXAMPLE_SKILL
+    Then a pop-up appears with a textbox and two buttons "Abbrechen" and "Verifizieren"
+    When I enter a comment 
+    And click on "Verifizieren"
+    Then I am back on the users profile page
+    And The hook for the tag EXAMPLE_SKILL is disabled
 ```
 
 ## 2.2 Alternative Flows
 
-- User clicks on the "Profil" page.
-- User clicks on the "Profil bearbeiten" button.
-- User clicks on the "Profil löschen" button and confirms. He will be sent to the login-page of the app and his profile will be no longer available in the system.
+(n/a)
 
 # 3 Special Requirements
 
