@@ -21,11 +21,11 @@ Every normal user can fill out their profile while the registration progress and
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](fillout.svg)
+![Organization Application Activity Diagram](ActivityDiagrams/fillout.svg)
 
 ### 2.1.2 Mock-up
 
-![Create Operation Form Wireframe](createAccount.png)
+![Create Operation Form Wireframe](Wireframe/createAccount.png)
 
 ### 2.1.3 Narrative
 

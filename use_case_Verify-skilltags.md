@@ -17,11 +17,11 @@ This works just by clicking a check box and writing a short comment.
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](verifySkill.svg)
+![Organization Application Activity Diagram](ActivityDiagrams/verifySkill.svg)
 
 ### 2.1.2 Mock-up
 
-![Create Operation Form Wireframe](verifySkill.png)
+![Create Operation Form Wireframe](Wireframe/verifySkill.png)
 
 ### 2.1.3 Narrative
 
@@ -33,13 +33,13 @@ Feature: verify skilltags
   after I received help due to one of their skills
 
   Background:
-    Given I am signed in 
+    Given I am signed in
 
   Scenario: verify skill EXAMPLE_SKILL
     Given I am on the profile page of another user
     When I click on the hook button next to the tag EXAMPLE_SKILL
     Then a pop-up appears with a textbox and two buttons "Abbrechen" and "Verifizieren"
-    When I enter a comment 
+    When I enter a comment
     And click on "Verifizieren"
     Then I am back on the users profile page
     And The hook for the tag EXAMPLE_SKILL is disabled

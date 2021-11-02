@@ -14,11 +14,11 @@ Every user is able to search for skilltags. Due to the fact skilltags are bound 
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](findUser.svg)
+![Organization Application Activity Diagram](ActivityDiagrams/findUser.svg)
 
 ### 2.1.2 Mock-up
 
-![Create Operation Form Wireframe](searchBySkilltag.png)
+![Create Operation Form Wireframe](Wireframe/searchBySkilltag.png)
 
 ### 2.1.3 Narrative
 
@@ -29,7 +29,7 @@ Feature: search for skilltags
   As a signed in user
   i want to search for skilltags
   and find persons with those tags in order to help me
- 
+
   Background:
     Given I am logged in
 
