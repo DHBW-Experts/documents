@@ -23,7 +23,7 @@ Every normal user can fill out their profile while the registration progress and
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](../Diagrams/UCs/CreateOperationActivityDiagramm.jpg)
+![Organization Application Activity Diagram](verifySkill.svg)
 
 ### 2.1.2 Mock-up
 

@@ -14,7 +14,7 @@ Every user is able to search for skilltags. Due to the fact skilltags are bound 
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](../Diagrams/UCs/CreateOperationActivityDiagramm.jpg)
+![Organization Application Activity Diagram](findUser.svg)
 
 ### 2.1.2 Mock-up
 

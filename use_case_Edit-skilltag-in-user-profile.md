@@ -21,7 +21,7 @@ Those skilltags can be publicly searched and found by every other user.
 
 ### 2.1.1 Activity Diagram
 
-TO DO
+![Activity Diagram](editSkilltag.svg)
 
 ### 2.1.2 Mock-up
 
