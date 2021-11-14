@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="844" viewBox="0 0 390 844">
+  <defs>
+    <clipPath id="clip-Registrieren">
+      <rect width="390" height="844"/>
+    </clipPath>
+  </defs>
+  <g id="Registrieren" clip-path="url(#clip-Registrieren)">
+    <rect width="390" height="844" fill="#fff"/>
+    <g id="sign-up" transform="translate(7 33)">
+      <g id="Passwort_WDH" data-name="Passwort WDH" transform="translate(25 759)">
+        <g id="Rechteck_1511" data-name="Rechteck 1511" transform="translate(0 23)" fill="#fff" stroke="#7a7a7a" stroke-width="1">
+          <rect width="327" height="48" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="326" height="47" rx="7.5" fill="none"/>
+        </g>
+        <text id="Passwort_wiederholen" data-name="Passwort wiederholen" transform="translate(0 12)" fill="#7a7a7a" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Passwort wiederholen</tspan></text>
+      </g>
+      <g id="Passwort" transform="translate(25 668)">
+        <g id="Rechteck_1511-2" data-name="Rechteck 1511" transform="translate(0 23)" fill="#fff" stroke="#7a7a7a" stroke-width="1">
+          <rect width="327" height="48" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="326" height="47" rx="7.5" fill="none"/>
+        </g>
+        <text id="Passwort-2" data-name="Passwort" transform="translate(0 12)" fill="#7a7a7a" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Passwort</tspan></text>
+      </g>
+      <g id="Kurs" transform="translate(25 577)">
+        <g id="Rechteck_1511-3" data-name="Rechteck 1511" transform="translate(0 23)" fill="#fff" stroke="#7a7a7a" stroke-width="1">
+          <rect width="327" height="48" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="326" height="47" rx="7.5" fill="none"/>
+        </g>
+        <text id="Kurs-2" data-name="Kurs" transform="translate(0 12)" fill="#7a7a7a" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Kurs</tspan></text>
+      </g>
+      <g id="Studiengang" transform="translate(25 486)">
+        <g id="Rechteck_1511-4" data-name="Rechteck 1511" transform="translate(0 23)" fill="#fff" stroke="#7a7a7a" stroke-width="1">
+          <rect width="327" height="48" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="326" height="47" rx="7.5" fill="none"/>
+        </g>
+        <text id="Studiengang-2" data-name="Studiengang" transform="translate(0 12)" fill="#7a7a7a" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Studiengang</tspan></text>
+      </g>
+      <g id="Email-adresse" transform="translate(20 395)">
+        <g id="Rechteck_1511-5" data-name="Rechteck 1511" transform="translate(0 23)" fill="#fff" stroke="#7a7a7a" stroke-width="1">
+          <rect width="327" height="48" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="326" height="47" rx="7.5" fill="none"/>
+        </g>
+        <text id="DHBW-Email-Adresse" transform="translate(0 12)" fill="#7a7a7a" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">DHBW-Email-Adresse</tspan></text>
+      </g>
+      <g id="_DHBW-Standort" data-name=" DHBW-Standort" transform="translate(25 304)">
+        <g id="Rechteck_1511-6" data-name="Rechteck 1511" transform="translate(0 23)" fill="#fff" stroke="#7a7a7a" stroke-width="1">
+          <rect width="327" height="48" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="326" height="47" rx="7.5" fill="none"/>
+        </g>
+        <text id="DHBW-Standort" transform="translate(0 12)" fill="#7a7a7a" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">DHBW-Standort</tspan></text>
+      </g>
+      <g id="Nachname" transform="translate(25 213)">
+        <g id="Rechteck_1511-7" data-name="Rechteck 1511" transform="translate(0 23)" fill="#fff" stroke="#7a7a7a" stroke-width="1">
+          <rect width="327" height="48" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="326" height="47" rx="7.5" fill="none"/>
+        </g>
+        <text id="Nachname-2" data-name="Nachname" transform="translate(0 12)" fill="#7a7a7a" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Nachname</tspan></text>
+      </g>
+      <g id="Vorname" transform="translate(25 122)">
+        <g id="Rechteck_1511-8" data-name="Rechteck 1511" transform="translate(0 23)" fill="#fff" stroke="#7a7a7a" stroke-width="1">
+          <rect width="327" height="48" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="326" height="47" rx="7.5" fill="none"/>
+        </g>
+        <text id="Vorname-2" data-name="Vorname" transform="translate(0 12)" fill="#7a7a7a" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Vorname</tspan></text>
+      </g>
+    </g>
+    <g id="top-nav" transform="translate(-3208 -2075)">
+      <rect id="Rechteck_1616" data-name="Rechteck 1616" width="390" height="138" transform="translate(3208 2075)" fill="#fff"/>
+      <g id="icon" transform="translate(3216 2103)">
+        <rect id="Rechteck_1580" data-name="Rechteck 1580" width="24" height="24" transform="translate(16 24)" fill="none"/>
+        <g id="Icon_feather-arrow-left" data-name="Icon feather-arrow-left" transform="translate(16 24)">
+          <path id="Pfad_1058" data-name="Pfad 1058" d="M19,12H5" fill="none" stroke="#7a7a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Pfad_1059" data-name="Pfad 1059" d="M12,19,5,12l7-7" fill="none" stroke="#7a7a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <text id="Registrieren-2" data-name="Registrieren" transform="translate(3240 2194)" fill="#7a7a7a" font-size="36" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">Registrieren</tspan></text>
+    </g>
+    <g id="bottom-nav">
+      <g id="Rechteck_1620" data-name="Rechteck 1620" transform="translate(0 695)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="390" height="152" stroke="none"/>
+        <rect x="0.5" y="0.5" width="389" height="151" fill="none"/>
+      </g>
+      <text id="Mit_dem_Registrieren_akzeptierst_du_unsere_AGBs" data-name="Mit dem Registrieren akzeptierst du unsere AGBs" transform="translate(195 789)" fill="#7a7a7a" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="-123.505" y="0">Mit dem Registrieren akzeptierst du unsere AGBs</tspan></text>
+      <g id="Default_Button" data-name="Default Button" transform="translate(31 707)">
+        <rect id="Rechteck_1469" data-name="Rechteck 1469" width="327" height="48" rx="8" fill="#b2002d"/>
+        <text id="Registrieren-3" data-name="Registrieren" transform="translate(122 29)" fill="#fff" font-size="12" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">REGISTRIEREN</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

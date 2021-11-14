@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="844" viewBox="0 0 390 844">
+  <defs>
+    <clipPath id="clip-Verifizieren">
+      <rect width="390" height="844"/>
+    </clipPath>
+  </defs>
+  <g id="Verifizieren" clip-path="url(#clip-Verifizieren)">
+    <rect width="390" height="844" fill="#fff"/>
+    <g id="sign-up" transform="translate(0 -30)">
+      <g id="Default_Button" data-name="Default Button" transform="translate(24 493)">
+        <rect id="Rechteck_1469" data-name="Rechteck 1469" width="327" height="48" rx="8" fill="#b2002d"/>
+        <text id="Abschicken" transform="translate(122 29)" fill="#fff" font-size="12" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">ABSCHICKEN</tspan></text>
+      </g>
+      <g id="code_group_2" data-name="code group 2" transform="translate(9 96)">
+        <g id="verification_code" data-name="verification code" transform="translate(266 281)">
+          <g id="Rechteck_1618" data-name="Rechteck 1618" transform="translate(0 56)" fill="#b2002d" stroke="#b2002d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+            <rect width="40" height="5" rx="2.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="39" height="4" rx="2" fill="none"/>
+          </g>
+          <text id="_0" data-name="0" transform="translate(8 48)" fill="#7a7a7a" font-size="50" font-family="Calibri-Light, Calibri" font-weight="300"><tspan x="0" y="0">0</tspan></text>
+        </g>
+        <g id="verification_code-2" data-name="verification code" transform="translate(166 281)">
+          <g id="Rechteck_1618-2" data-name="Rechteck 1618" transform="translate(0 56)" fill="#b2002d" stroke="#b2002d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+            <rect width="40" height="5" rx="2.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="39" height="4" rx="2" fill="none"/>
+          </g>
+          <text id="_0-2" data-name="0" transform="translate(8 48)" fill="#7a7a7a" font-size="50" font-family="Calibri-Light, Calibri" font-weight="300"><tspan x="0" y="0">0</tspan></text>
+        </g>
+        <g id="verification_code-3" data-name="verification code" transform="translate(66 281)">
+          <g id="Rechteck_1618-3" data-name="Rechteck 1618" transform="translate(0 56)" fill="#b2002d" stroke="#b2002d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+            <rect width="40" height="5" rx="2.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="39" height="4" rx="2" fill="none"/>
+          </g>
+          <text id="_0-3" data-name="0" transform="translate(8 48)" fill="#7a7a7a" font-size="50" font-family="Calibri-Light, Calibri" font-weight="300"><tspan x="0" y="0">0</tspan></text>
+        </g>
+      </g>
+      <g id="code_group_1" data-name="code group 1" transform="translate(9)">
+        <g id="verification_code-4" data-name="verification code" transform="translate(266 281)">
+          <g id="Rechteck_1618-4" data-name="Rechteck 1618" transform="translate(0 56)" fill="#b2002d" stroke="#b2002d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+            <rect width="40" height="5" rx="2.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="39" height="4" rx="2" fill="none"/>
+          </g>
+          <text id="_0-4" data-name="0" transform="translate(8 48)" fill="#7a7a7a" font-size="50" font-family="Calibri-Light, Calibri" font-weight="300"><tspan x="0" y="0">0</tspan></text>
+        </g>
+        <g id="verification_code-5" data-name="verification code" transform="translate(166 281)">
+          <g id="Rechteck_1618-5" data-name="Rechteck 1618" transform="translate(0 56)" fill="#b2002d" stroke="#b2002d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+            <rect width="40" height="5" rx="2.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="39" height="4" rx="2" fill="none"/>
+          </g>
+          <text id="_0-5" data-name="0" transform="translate(8 48)" fill="#7a7a7a" font-size="50" font-family="Calibri-Light, Calibri" font-weight="300"><tspan x="0" y="0">0</tspan></text>
+        </g>
+        <g id="verification_code-6" data-name="verification code" transform="translate(66 281)">
+          <g id="Rechteck_1618-6" data-name="Rechteck 1618" transform="translate(0 56)" fill="#b2002d" stroke="#b2002d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+            <rect width="40" height="5" rx="2.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="39" height="4" rx="2" fill="none"/>
+          </g>
+          <text id="_0-6" data-name="0" transform="translate(8 48)" fill="#7a7a7a" font-size="50" font-family="Calibri-Light, Calibri" font-weight="300"><tspan x="0" y="0">0</tspan></text>
+        </g>
+      </g>
+      <text id="Wir_haben_dir_eine_Mail_an_deine_DHBW-Email-Adresse_gesendet._Bitte_gib_hier_den_Code_ein." data-name="Wir haben dir eine Mail an deine DHBW-Email-Adresse gesendet.
+Bitte gib hier den Code ein." transform="translate(31 190)" fill="#7a7a7a" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="15">Wir haben dir eine Mail an deine DHBW-</tspan><tspan x="0" y="36">Email-Adresse gesendet.</tspan><tspan x="0" y="57">Bitte gib hier den Code ein.</tspan></text>
+      <text id="Verifizieren-2" data-name="Verifizieren" transform="translate(24.749 157)" fill="#7a7a7a" font-size="36" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">Verifizieren</tspan></text>
+    </g>
+    <g id="top-nav" transform="translate(-3208 -2075)">
+      <rect id="Rechteck_1616" data-name="Rechteck 1616" width="375" height="88" transform="translate(3208 2075)" fill="#fff"/>
+      <g id="icon" transform="translate(3216 2103)">
+        <rect id="Rechteck_1580" data-name="Rechteck 1580" width="24" height="24" transform="translate(16 24)" fill="none"/>
+        <g id="Icon_feather-arrow-left" data-name="Icon feather-arrow-left" transform="translate(16 24)">
+          <path id="Pfad_1058" data-name="Pfad 1058" d="M19,12H5" fill="none" stroke="#7a7a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Pfad_1059" data-name="Pfad 1059" d="M12,19,5,12l7-7" fill="none" stroke="#7a7a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

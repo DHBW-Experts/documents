@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="844" viewBox="0 0 390 844">
+  <defs>
+    <clipPath id="clip-Anmelden">
+      <rect width="390" height="844"/>
+    </clipPath>
+  </defs>
+  <g id="Anmelden" clip-path="url(#clip-Anmelden)">
+    <rect width="390" height="844" fill="#fff"/>
+    <g id="sign-up" transform="translate(7 33)">
+      <text id="Du_hast_bereits_noch_keinen_Account_Registrieren" data-name="Du hast bereits noch keinen Account? Registrieren" transform="translate(33 609.016)" fill="#7a7a7a" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Du hast bereits noch keinen Account? </tspan><tspan y="0" fill="#b2002d" font-family="Montserrat-Bold, Montserrat" font-weight="700">Registrieren</tspan></text>
+      <g id="sign-up-2" data-name="sign-up" transform="translate(0 197.016)">
+        <g id="Default_Button" data-name="Default Button" transform="translate(24 304)">
+          <rect id="Rechteck_1469" data-name="Rechteck 1469" width="327" height="48" rx="8" fill="#b2002d"/>
+          <text id="aNMELDEN-2" data-name="aNMELDEN" transform="translate(136 29)" fill="#fff" font-size="12" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">ANMELDEN</tspan></text>
+        </g>
+        <g id="Default_Input" data-name="Default Input" transform="translate(25 213)">
+          <g id="Rechteck_1511" data-name="Rechteck 1511" transform="translate(0 23)" fill="#fff" stroke="#7a7a7a" stroke-width="1">
+            <rect width="327" height="48" rx="8" stroke="none"/>
+            <rect x="0.5" y="0.5" width="326" height="47" rx="7.5" fill="none"/>
+          </g>
+          <text id="Passwort" transform="translate(0 12)" fill="#7a7a7a" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Passwort</tspan></text>
+        </g>
+        <g id="Default_Input-2" data-name="Default Input" transform="translate(25 122)">
+          <g id="Rechteck_1511-2" data-name="Rechteck 1511" transform="translate(0 23)" fill="#fff" stroke="#7a7a7a" stroke-width="1">
+            <rect width="327" height="48" rx="8" stroke="none"/>
+            <rect x="0.5" y="0.5" width="326" height="47" rx="7.5" fill="none"/>
+          </g>
+          <text id="DHBW-Email-Adresse" transform="translate(0 12)" fill="#7a7a7a" font-size="12" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">DHBW-Email-Adresse</tspan></text>
+        </g>
+      </g>
+      <text id="Vernetze_dich_und_finde_Hilfe_wann_und_wo_du_sie_brauchst_" data-name="Vernetze dich  und finde Hilfe wann und wo du sie brauchst!" transform="translate(24 228.016)" fill="#7a7a7a" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="15" xml:space="preserve">Vernetze dich  und finde Hilfe wann und </tspan><tspan x="0" y="36">wo du sie brauchst!</tspan></text>
+      <line id="Linie_193" data-name="Linie 193" x2="327.5" transform="translate(24 204.016)" fill="none" stroke="#b2002d" stroke-width="4"/>
+      <g id="layer1" transform="translate(5.652 -92.8)">
+        <g id="layer1-9" transform="translate(59.79 162.899)">
+          <path id="path84" d="M98.643,125.4v17.8A5.658,5.658,0,0,1,97,146.432L78.866,164.562a1.953,1.953,0,0,1-1.187.659c-.29,0-.461-.216-.461-.659v1.978a1.68,1.68,0,0,0,1.648,1.648h39.489A1.68,1.68,0,0,0,120,166.539V126.984a1.624,1.624,0,0,0-1.648-1.582ZM73.526,166.539a1.682,1.682,0,0,1-1.648,1.648H52.166v21.492c0,.443.174.659.461.659a1.842,1.842,0,0,0,1.121-.659L71.878,171.55a5.682,5.682,0,0,0,1.648-3.23Z" transform="translate(-30.741 -102.988)" fill="#7d8990"/>
+          <path id="path88" d="M107.857,113.109a1.949,1.949,0,0,0-1.187.659l-18.129,18.2a5.517,5.517,0,0,0-1.648,3.164v39.555c0,.886.765.886,1.648,0l18.129-18.129a5.666,5.666,0,0,0,1.648-3.23V113.768c0-.443-.17-.659-.461-.659ZM42.064,135.524a1.624,1.624,0,0,0-1.648,1.582v39.555a1.68,1.68,0,0,0,1.648,1.648H81.553a1.68,1.68,0,0,0,1.648-1.648V137.106a1.624,1.624,0,0,0-1.648-1.582Z" transform="translate(-40.416 -113.109)" fill="#e2001a"/>
+          <path id="path100" d="M78.866,125.4a1.68,1.68,0,0,0-1.648,1.648v37.511c0,.443.172.659.461.659a1.953,1.953,0,0,0,1.187-.659L97,146.432a5.674,5.674,0,0,0,1.648-3.23V125.4Zm-5.8,2.7a1.96,1.96,0,0,0-1.187.659l-18.129,18.2a5.444,5.444,0,0,0-1.582,3.164v18.063H71.878a1.68,1.68,0,0,0,1.648-1.648V128.764c0-.44-.172-.659-.461-.659Z" transform="translate(-30.741 -102.988)" fill="#8e1016"/>
+          <path id="path242" d="M96.6,116.8a1.411,1.411,0,0,0-1.121.4,1.693,1.693,0,0,0-.4,1.187v39.555a1.541,1.541,0,0,0,.4,1.121,1.472,1.472,0,0,0,1.121.461h10.746a18.612,18.612,0,0,0,7.977-1.648,17.544,17.544,0,0,0,6.131-4.681,21.508,21.508,0,0,0,3.89-7.054,27.781,27.781,0,0,0,1.318-8.9,23.567,23.567,0,0,0-1.384-8.372,19.147,19.147,0,0,0-3.956-6.461,17.219,17.219,0,0,0-6.131-4.153,20.518,20.518,0,0,0-7.911-1.45Zm38.9,0a1.414,1.414,0,0,0-1.121.4,1.748,1.748,0,0,0-.461,1.187v39.555a1.6,1.6,0,0,0,.461,1.121,1.485,1.485,0,0,0,1.121.461h4.417a1.576,1.576,0,0,0,1.582-1.582v-17.6h14.767v17.6a1.594,1.594,0,0,0,.461,1.121,1.322,1.322,0,0,0,1.055.461H162.2a1.659,1.659,0,0,0,1.187-.461,1.5,1.5,0,0,0,.461-1.121V118.386a1.644,1.644,0,0,0-.461-1.187,1.584,1.584,0,0,0-1.187-.4h-4.417a1.263,1.263,0,0,0-1.055.4,1.748,1.748,0,0,0-.461,1.187v15.69H141.5v-15.69a1.644,1.644,0,0,0-.461-1.187,1.432,1.432,0,0,0-1.121-.4Zm-32.9,5.933h4.813a10.14,10.14,0,0,1,4.813,1.121,11.261,11.261,0,0,1,3.626,3.033,13.618,13.618,0,0,1,2.307,4.615,20.631,20.631,0,0,1,.725,5.735,23.963,23.963,0,0,1-.791,6.527,16.612,16.612,0,0,1-2.439,5.208,11.461,11.461,0,0,1-3.758,3.362,9.88,9.88,0,0,1-4.878,1.253H102.6Z" transform="translate(4.595 -110.067)" fill="#e2001a"/>
+          <text id="text2250" transform="translate(96.727 79.917)" fill="#e2001a" font-size="42" font-family="Calibri-Bold, Calibri" font-weight="700"><tspan x="0" y="0">EX</tspan></text>
+          <text id="text3244" transform="translate(139.553 79.914)" fill="#5d6971" font-size="42" font-family="Calibri-Light, Calibri" font-weight="300"><tspan x="0" y="0">PERTS</tspan></text>
+        </g>
+        <path id="path238" d="M155.946,166.6a1.133,1.133,0,0,0-.791.264.924.924,0,0,0-.33.725v40.61a1.1,1.1,0,0,0,.33.791,1.129,1.129,0,0,0,.791.33H165.7a19.482,19.482,0,0,0,5.736-.857,14.716,14.716,0,0,0,4.681-2.373,11.2,11.2,0,0,0,3.164-3.89,11.564,11.564,0,0,0,1.187-5.208,9.561,9.561,0,0,0-.725-3.758,10.351,10.351,0,0,0-1.978-3.1,10.785,10.785,0,0,0-2.9-2.176,11.69,11.69,0,0,0-3.428-1.187,10.9,10.9,0,0,0,2.637-1.253,12.547,12.547,0,0,0,2.571-2.11,11.793,11.793,0,0,0,1.912-2.835,7.408,7.408,0,0,0,.791-3.3,9.969,9.969,0,0,0-1.055-4.747,9.816,9.816,0,0,0-2.835-3.362,12.206,12.206,0,0,0-4.087-1.978,18.6,18.6,0,0,0-4.879-.593Zm29.6,0a.969.969,0,0,0-.725.264.68.68,0,0,0-.132.725l8.175,40.61a1.853,1.853,0,0,0,.527.791,1.176,1.176,0,0,0,.791.33h3.23a1.165,1.165,0,0,0,.791-.33,1.761,1.761,0,0,0,.461-.791l6.988-35.8,7.054,35.8a1.693,1.693,0,0,0,.461.791,1.176,1.176,0,0,0,.791.33h3.23a1.127,1.127,0,0,0,.791-.33,1.891,1.891,0,0,0,.461-.791l8.175-40.61a.712.712,0,0,0-.132-.725.8.8,0,0,0-.659-.264h-2.571a1.18,1.18,0,0,0-1.253.989l-6.329,35.864-7.054-35.864a1.113,1.113,0,0,0-1.187-.989H204.2a1.153,1.153,0,0,0-1.253.989l-6.988,35.864-6.395-35.864a1.224,1.224,0,0,0-1.319-.989Zm-26.041,3.758h6.988a8.753,8.753,0,0,1,5.867,1.912,6.517,6.517,0,0,1,2.241,5.208,6.646,6.646,0,0,1-.725,3.033,7.968,7.968,0,0,1-1.846,2.439,8.642,8.642,0,0,1-2.637,1.582,8.46,8.46,0,0,1-3.1.593h-6.79Zm0,18.459h6.988a9.885,9.885,0,0,1,6.593,2.176,7.141,7.141,0,0,1,2.505,5.8,8.731,8.731,0,0,1-.659,3.56,8.311,8.311,0,0,1-1.978,2.769,8.888,8.888,0,0,1-2.9,1.78,9.83,9.83,0,0,1-3.56.659h-6.988Z" transform="translate(78.245 3.043)" fill="#5d6971"/>
+      </g>
+    </g>
+  </g>
+</svg>
