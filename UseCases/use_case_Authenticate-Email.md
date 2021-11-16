@@ -16,11 +16,11 @@ Every user has to be a student from the DHBW in Germany, therefore they need to 
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](ActivityDiagrams/verifyEmail.svg)
+![Organization Application Activity Diagram](../ActivityDiagrams/verifyEmail.svg)
 
 ### 2.1.2 Mock-up
 
-![Create Operation Form Wireframe](Wireframe/verifyEmail.png)
+![Create Operation Form Wireframe](../Wireframe/verifyEmail.png)
 
 ### 2.1.3 Narrative
 

@@ -21,11 +21,11 @@ Those skilltags can be publicly searched and found by every other user.
 
 ### 2.1.1 Activity Diagram
 
-![Activity Diagram](ActivityDiagrams/editSkilltag.svg)
+![Activity Diagram](../ActivityDiagrams/editSkilltag.svg)
 
 ### 2.1.2 Mock-up
 
-![Create Operation Form Wireframe](Wireframe/editSkilltags.png)
+![Create Operation Form Wireframe](../Wireframe/editSkilltags.png)
 
 ### 2.1.3 Narrative
 

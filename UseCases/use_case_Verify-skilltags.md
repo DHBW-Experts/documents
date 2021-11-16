@@ -17,11 +17,11 @@ This works just by clicking a check box and writing a short comment.
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](ActivityDiagrams/verifySkill.svg)
+![Organization Application Activity Diagram](../ActivityDiagrams/verifySkill.svg)
 
 ### 2.1.2 Mock-up
 
-![Create Operation Form Wireframe](Wireframe/verifySkill.png)
+![Create Operation Form Wireframe](../Wireframe/verifySkill.png)
 
 ### 2.1.3 Narrative
 

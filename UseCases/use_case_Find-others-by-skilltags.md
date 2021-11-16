@@ -14,11 +14,11 @@ Every user is able to search for skilltags. Due to the fact skilltags are bound 
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](ActivityDiagrams/findUser.svg)
+![Organization Application Activity Diagram](../ActivityDiagrams/findUser.svg)
 
 ### 2.1.2 Mock-up
 
-![Create Operation Form Wireframe](Wireframe/searchBySkilltag.png)
+![Create Operation Form Wireframe](../Wireframe/searchBySkilltag.png)
 
 ### 2.1.3 Narrative
 
