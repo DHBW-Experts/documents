@@ -1,0 +1,39 @@
+swagger: "2.0"
+info:
+  description: "Bla Blubber Fasel"
+  version: ""
+  title: "DHBW-Experts"
+  contact:
+    email: "dhbw.experts@gmail.com"
+host: "dhbw-experts-api.azurewebsites.net"
+paths:
+  /users/id/{id}:
+    get:
+      tags:
+      - "user"
+      summary: "Bli Bla Blub"
+      description: ""
+      responses:
+        200:
+          description: "Success"
+  /users/rfid/{tagId}:
+    get:
+      tags:
+      - "user"
+      summary: ""
+      description: ""
+      responses:
+        200:
+          description: ""
+  /register/{userId}/{verificationId}:
+    put:
+      tags:
+      - ""
+      summary: ""
+      description: ""
+      responses:
+        200:
+          description: ""
+tags:
+- name: "user"
+  description: ""
