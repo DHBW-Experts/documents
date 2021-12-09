@@ -88,7 +88,7 @@ Our app should be available as an Android and iOS-app (Although it will be almos
 
 ### 2.2 Use Case Diagram
 
-![OUCD](./UseCase-Diagram.jpg)
+![OUCD](DHBW-Experts/documents/UseCases/UseCase-Diagram.jpg)
 
 ### 2.3 Technology Stack
 
@@ -153,13 +153,13 @@ Every account will be linked to a student ID. To add an student ID to your Accou
 
 #### 3.1.2 adding skilltags to an Account
 
-[Use case: edit skilltags](use_case_Edit-skilltag-in-user-profile.md)
+[Use case: edit skilltags](./UseCases/use_case_Edit-skilltag-in-user-profile.md)
 
 Every user can show their skills by adding their personal skilltags to their profile. Skilltags can also be removed.
 
 #### 3.1.3 Creating an account
 
-[Use case: fillout user profile](use_case_Fill-out-user-profile.md)
+[Use case: fillout user profile](./UseCases/use_case_Fill-out-user-profile.md)
 
 To identify all users we need an account system. This account system enables us to build important functions such as scanning the student ID from someone else to get information about their skilltags.
 
@@ -173,19 +173,19 @@ In case you share your phone or just want to be cautius about your privacy you s
 
 #### 3.1.6 Email validation
 
-[Use case: validate Email](use_case_Authenticate-Email.md)
+[Use case: validate Email](./UseCases/use_case_Authenticate-Email.md)
 
 Every user needs to confirm that they are a student at the DHBW by verifying their email adress.
 
 #### 3.1.7 search for different skilltags
 
-[Use case: find user by skilltag](use_case_Find-others-by-skilltags.md)
+[Use case: find user by skilltag](./UseCases/use_case_Find-others-by-skilltags.md)
 
 A user can search for different skill tags and find other users that have this skill.
 
 #### 3.1.8 confirmation of skilltags by other users
 
-[Use case: verify skilltag](use_case_Verify-skilltags.md)
+[Use case: verify skilltag](./UseCases/use_case_Verify-skilltags.md)
 
 Users can confirm that another user has a certain skill as specified on their profile.
 
@@ -297,4 +297,4 @@ The Team Members are:
 
 <!-- Picture-Link definitions: -->
 
-[oucd]: https://github.com/IB-KA/CommonPlayground/blob/master/UseCase-Diagram.jpg "Overall Use Case Diagram"
+[oucd]: https://github.com/DHBW-Experts/documents/blob/main/UseCases/UseCase-Diagram.jpg "Overall Use Case Diagram"
