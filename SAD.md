@@ -49,10 +49,10 @@ This document describes the architecture of the DHBW-Experts project.
 | ---------------------------------------------------------------------- | ----------------------- |
 | [DHBW-Experts Blog](https://dhbw-experts.github.io/)                   | DHBW-Experts Team       |
 | [GitHub Organization](https://github.com/DHBW-Experts)                 | DHBW-Experts Team       |
-| [UC Authenticate Email](UseCases\use_case_Authenticate-Email.md)       | DHBW-Experts Team       |
-| [UC Edit Skilltag](UseCases\use_case_Edit-skilltag-in-user-profile.md) | DHBW-Experts Team       |
-| [UC Fillout User Profile](UseCases\use_case_Fill-out-user-profile.md)  | DHBW-Experts Team       |
-| [UC Verify Skilltag](UseCases\use_case_Verify-skilltags.md)            | DHBW-Experts Team       |
+| [UC Authenticate Email](./UseCases/use_case_Authenticate-Email.md)       | DHBW-Experts Team       |
+| [UC Edit Skilltag](./UseCases/use_case_Edit-skilltag-in-user-profile.md) | DHBW-Experts Team       |
+| [UC Fillout User Profile](./UseCases/use_case_Fill-out-user-profile.md)  | DHBW-Experts Team       |
+| [UC Verify Skilltag](./UseCases/use_case_Verify-skilltags.md)            | DHBW-Experts Team       |
 | [SRS](README.md)                                                       | DHBW-Experts Team       |
 
 ### 1.5 Overview
@@ -86,7 +86,7 @@ Models contain the data that is displayed in the views.
 
 ## 4. Use-Case View
 
-![Overall-Use-Case-Diagram](UseCases\UseCase-Diagram.jpg)
+![Overall-Use-Case-Diagram](./UseCases/UseCase-Diagram.jpg)
 
 ## 5. Logical View
 
