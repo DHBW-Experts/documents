@@ -88,7 +88,7 @@ Our app should be available as an Android and iOS-app (Although it will be almos
 
 ### 2.2 Use Case Diagram
 
-![OUCD](DHBW-Experts/documents/UseCases/UseCase-Diagram.jpg)
+![OUCD](/UseCases/UseCase-Diagram.jpg)
 
 ### 2.3 Technology Stack
 
