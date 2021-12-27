@@ -257,6 +257,7 @@ The User interfaces that will be implented are:
 
 - Login - this page is used to log in
 - Register - provides a registration form
+- Verify - to verify your DHBW-Email-Adress via a verification code
 - Contact List - save contacts to quickly find them again
 - Edit Profile - own personal information can be edited and skilltags can be added
 - View Profile - view the profile of a specific user
