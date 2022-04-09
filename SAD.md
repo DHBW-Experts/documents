@@ -45,15 +45,15 @@ This document describes the architecture of the DHBW-Experts project.
 
 ### 1.4 References
 
-| Title                                                                  | Publishing organization |
-| ---------------------------------------------------------------------- | ----------------------- |
-| [DHBW-Experts Blog](https://dhbw-experts.github.io/)                   | DHBW-Experts Team       |
-| [GitHub Organization](https://github.com/DHBW-Experts)                 | DHBW-Experts Team       |
+| Title                                                                    | Publishing organization |
+| ------------------------------------------------------------------------ | ----------------------- |
+| [DHBW-Experts Blog](https://dhbw-experts.github.io/)                     | DHBW-Experts Team       |
+| [GitHub Organization](https://github.com/DHBW-Experts)                   | DHBW-Experts Team       |
 | [UC Authenticate Email](./UseCases/use_case_Authenticate-Email.md)       | DHBW-Experts Team       |
 | [UC Edit Skilltag](./UseCases/use_case_Edit-skilltag-in-user-profile.md) | DHBW-Experts Team       |
 | [UC Fillout User Profile](./UseCases/use_case_Fill-out-user-profile.md)  | DHBW-Experts Team       |
 | [UC Verify Skilltag](./UseCases/use_case_Verify-skilltags.md)            | DHBW-Experts Team       |
-| [SRS](README.md)                                                       | DHBW-Experts Team       |
+| [SRS](README.md)                                                         | DHBW-Experts Team       |
 
 ### 1.5 Overview
 
@@ -106,6 +106,8 @@ TODO: Add link to file to view in full size
 n/a
 
 ## 7. Deployment View
+
+![Visual representation](deploy.png)
 
 ### Server
 
