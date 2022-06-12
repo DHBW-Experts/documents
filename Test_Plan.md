@@ -65,7 +65,7 @@
 - [11. Iteration Milestones](#11-iteration-milestones)
 - [12. Risks, Dependencies, Assumptions, and Constraints](#12-risks--dependencies--assumptions--and-constraints)
 - [13. Management Process and Procedures](#13-management-process-and-procedures)
-
+- [14. Metrics](#14-metrics)
 ## 1. Introduction
 
 ### 1.1 Purpose
@@ -453,3 +453,9 @@ see risk management: https://docs.google.com/spreadsheets/d/1falTIQkIQSTLZd_tVhu
 ## 13. Management Process and Procedures
 
 n/a
+
+## 14. Metrics
+We use SonarCloud to analyse our code.
+
+The main metrics we want to focus on are cyclomatic complexity and cognitiv complexity. Cyclomatic complexitiy measures how many possible paths are there through a certain piece of code. The higher the cyclomatic complexity, the more test you will have to write. Cognitiv complexity determines how tricky a unit of code is to understand. This is important for everyone that will have to read and modify the code in the future. Refactoring will be used to improve these metrics. (If you are looking for a detailed example on how metrics improved our code, take a look at this blogpost: https://dhbw-experts.github.io/blog/2.8/)
+
