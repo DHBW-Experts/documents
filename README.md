@@ -122,7 +122,7 @@ Deployment:
 - Github Actions
 
 Testing:
-
+- SonarCloud (for metrics)
 - Ionic Jasmine
 
 ## 3. Specific Requirements
