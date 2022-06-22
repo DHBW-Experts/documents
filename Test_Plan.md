@@ -357,8 +357,7 @@ n/a
 
 ### 7.6.1 Detailed Test Results
 
-Can be viewed in the browser using Karma and Jasmine when executing the test locally.
-TODO: Link GitHub Action Flow results
+Can be viewed in the browser using Karma and Jasmine when executing the test locally. The results can be seen on the badges in the readme of the app repository and by looking at the Github Actions [Workflow](https://github.com/DHBW-Experts/app/actions/workflows/test.yml).
 
 ### 7.6.2 Additional Automated Functional Test Scripts
 
