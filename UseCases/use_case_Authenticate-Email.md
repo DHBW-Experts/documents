@@ -2,17 +2,17 @@
 
 ## 1.1 Brief Description
 
-Every user has to be a student from the DHBW in Germany, therefore they need to verify their e-mail address with the domain '@student.dhbw-karlsruhe.de' since only students from the DHBW got such an e-mail address.
+Every user has to be a student from the DHBW, therefore they need to verify their e-mail address which has to end with a valid domain like '@student.dhbw-karlsruhe.de. Upon registering users will receive an email with an verification link to authenticate the user account.
 
 # 2 Flow of Events
 
 ## 2.1 Basic Flow
 
-- User clicks on "Registrierung abschließen" button.
-- User gets a new window with a textfield "Bestätigungscode".
-- User checks his latest e-mail and enters the code from the mail into the textfield.
-- User clicks on "Code überprüfen" button.
-- User gets to the homepage of the app if the code was correct.
+- User clicks on "Registrieren" button.
+- User will be logged out and asked to verify their email adress.
+- User checks his latest e-mail and clicks on the contained link.
+- User will see an "Verifizierung erfolgreich" screen.
+- User can login again.
 
 ### 2.1.1 Activity Diagram
 
@@ -35,22 +35,18 @@ Feature: E-mail authentification
     Given I am on the registration window.
 
   Scenario: verify my e-mail address successfully
-    Given I filled out my user profile
-    When I click on "Registrierung abschließen"
-    Then I am asked to enter a confirmation code that was sent to my e-mail address
-    When I enter EXAMPLE_CODE in the textfield "Bestätigungscode"
-    And I click on "Code überprüfen"
-    And the codes are similar
-    Then the homepage of the app is shown
+    Given I entered my email and specified a password
+    When I click on "Registrieren"
+    Then I will be logged out and asked to verify my email adress
+    When I click on the link in the email I received
+    Then I will be able to log in.
 
   Scenario: failing to verify my e-mail address
-    Given I filled out my user profile
-    When I click on "Registrierung abschließen"
-    Then I am asked to enter a confirmation code that was sent to my e-mail address
-    When I enter EXAMPLE_CODE in the textfield "Bestätigungscode"
-    And I click on "Code überprüfen"
-    And the codes are not similar
-    Then a message is shown "Falscher Bestätigungscode" with buttons "Erneut senden" and "Zurück zur Registrierung"
+    Given I entered my email and specified a password
+    When I click on "Registrieren"
+    Then I will be logged out and asked to verify my email adress
+    When I try to login without verifying my email adress
+    Then I will be logged out again.
 ```
 
 ## 2.2 Alternative Flows
@@ -65,7 +61,7 @@ Feature: E-mail authentification
 
 ## 4.1 Login
 
-The user has to be logged in to the system.
+The user has tried to register himself.
 
 # 5 Postconditions
 
