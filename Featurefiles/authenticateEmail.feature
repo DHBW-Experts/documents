@@ -1,19 +1,22 @@
 Feature: E-mail authentification
 
+  As a new user
+  I want to register to the app
+  and I want to be confirmed as a student of the DHBW
+
+  Background:
+    Given I am on the registration window.
+
   Scenario: verify my e-mail address successfully
-    Given I filled out my user profile
-    When I click on the button with id "finish_register"
-    Then a new popup "E-mail bestätigen" appears
-    When I enter an EXAMPLE_CODE in the textfield with id "verification_code"
-    And I click on the button with id "verify_code"
-    And the codes are similar
-    Then the homepage of the app is shown
+    Given I entered my email and specified a password
+    When I click on "Registrieren"
+    Then I will be logged out and asked to verify my email adress
+    When I click on the link in the email I received
+    Then I will be able to log in.
 
   Scenario: failing to verify my e-mail address
-    Given I filled out my user profile
-    When I click on the button with id "finish_register"
-    Then a new popup "E-mail bestätigen" appears 
-    When I enter an EXAMPLE_CODE in the textfield with id "verification_code"
-    And I click on the button with id "verify_code"
-    And the codes are not similar
-    Then a message is shown "Falscher Bestätigungscode" with buttons "Erneut senden" and "Zurück zur Registrierung"
+    Given I entered my email and specified a password
+    When I click on "Registrieren"
+    Then I will be logged out and asked to verify my email adress
+    When I try to login without verifying my email adress
+    Then I will be logged out again.
